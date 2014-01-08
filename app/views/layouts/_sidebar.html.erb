@@ -1,0 +1,43 @@
+<!-- Begin Sidebar -->
+<div id="sidebar">
+  <ul>
+    <!-- Begin Widget -->
+    <li class="widget">
+      <h2><%= link_to 'Categories', categories_path %></h2>
+      <ul>
+        <% @categories.each do |category| %>
+            <li><%= link_to category.title, category %></li>
+        <% end %>
+        <!--<li class="last"><a href="#" title="Category 13">Category 13</a></li>-->
+      </ul>
+    </li>
+    <!-- End Widget -->
+    <!-- Begin Widget -->
+    <li class="widget">
+      <h2>Search</h2>
+      <div id="search">
+        <form action="#" method="get" accept-charset="utf-8">
+          <label>Keyword</label>
+          <input type="text" class="blink" name="keyword" />
+          <label>Category</label>
+          <%= select("post", "category_id", @categories.collect {|p| [ p.title, p.id ] }, { :prompt => "-- Select Category --" }) %>
+          <div class="price">
+            <label>Price</label>
+            <%= select("post", "price", [10,20,30,40,50].collect {|p| [ '$'+p.to_s,p ] }, { :size => 1} ) %>
+            <label>to:</label>
+            <%= select("post", "price", [60,70,80,90,100].collect {|p| [ '$'+p.to_s,p ] } ) %>
+            <div class="cl">&nbsp;</div>
+          </div>
+          <span class="button"><input type="submit" value="Search" /></span>
+          <div class="cl">&nbsp;</div>
+        </form>
+        <ul class="options">
+          <li><a href="#" title="Advanced search">Advanced search</a></li>
+          <li><a href="#" title="Contact Customer Support">Contact Customer Support</a></li>
+        </ul>
+      </div>
+    </li>
+    <!-- End Widget -->
+  </ul>
+</div>
+<!-- End Sidebar -->

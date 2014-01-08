@@ -1,0 +1,13 @@
+/%p#notice= notice
+
+%dl.dl-horizontal
+  %dt
+    %strong Title :
+  %dd= @category.title if @category.present?
+  %dt Description :
+  %dd= @category.description if @category.present?
+
+
+= link_to 'Edit', edit_category_path(@category), class: "btn btn-primary"
+\|
+= link_to 'Back', categories_path, class: "btn btn-default"

@@ -1,0 +1,19 @@
+= form_for @category, :html => {:role => "form", :class => "form-horizontal"} do |f|
+  - if @category.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@category.errors.count, "error")} prohibited this category from being saved:"
+      %ul
+        - @category.errors.full_messages.each do |msg|
+          %li= msg
+
+  .form-group
+    = f.label :title, :class => 'col-sm-2 control-label'
+    .col-sm-10
+      = f.text_field :title, :class => 'form-control', placeholder: "Title"
+  .form-group
+    = f.label :description, :class => 'col-sm-2 control-label'
+    .col-sm-10
+      = f.text_area :description, :class => 'form-control' ,rows: 3, placeholder: "Description"
+  .form-group
+    .col-sm-offset-2.col-sm-10
+      = f.submit nil, :class => "btn btn-primary"

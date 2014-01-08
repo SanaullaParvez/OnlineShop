@@ -1,0 +1,34 @@
+<!-- Begin Header -->
+<div id="header">
+  <div class="header-inner">
+    <!-- Begin Shell -->
+    <div class="shell">
+      <div id="logo"><%= link_to content_tag(:span, 'World of TShirts'), page_path('home'), :class => "notext" %></div>
+      <div id="account">
+        <%= link_to 'Your Shopping Cart', page_path('home'), title: "View Account", :class => "view-account" %>
+        <span>Articles: 4</span><span>Cost: <strong>$250.90</strong></span>
+        <div class="cl">&nbsp;</div>
+      </div>
+      <!-- Begin Navigation -->
+      <div id="navigation">
+        <ul>
+          <li><%= link_to content_tag(:span, 'Home') , page_path('home') %></li>
+          <li><%= link_to content_tag(:span, 'About Us'), page_path('about-us') %></li>
+          <% if user_signed_in? %>
+              <li><a><span>Signed in as <%= current_user.email %></span></a></li>
+              <li><%= link_to content_tag(:span,"Sign out"), destroy_user_session_path, :method => :delete %></li>
+          <% else %>
+              <li><%= link_to content_tag(:span, "Sign up"), new_user_registration_path %></li>
+              <li><%= link_to content_tag(:span, "sign in"), new_user_session_path %>
+          <% end %>
+          </li>
+        </ul>
+        <div class="cl">&nbsp;</div>
+      </div>
+      <!-- End Navigation -->
+      <div class="cl">&nbsp;</div>
+    </div>
+    <!-- End Shell -->
+  </div>
+</div>
+<!-- End Header -->

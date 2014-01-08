@@ -1,0 +1,22 @@
+
+%dl.dl-horizontal
+  %dt
+    %b Title:
+  %dd= @post.title
+  %dt
+    %b Description:
+  %dd= @post.description
+  %dt
+    %b Category:
+    - @post.categories.each do |x|
+      %dd= x.title+':'
+  %dt
+    %b Image:
+    %dd= image_tag(@post.images.first.photo.url)
+  %dt
+    %b Price:
+    %dd= @post.price
+
+= link_to 'Edit', edit_post_path(@post), class: "btn btn-primary"
+\|
+= link_to 'Back', posts_path, class: "btn btn-default"

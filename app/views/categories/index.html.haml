@@ -1,0 +1,27 @@
+.page-header
+  %h1 Listing categories
+
+%table.table.table-striped
+  %tr.success
+    %th Title
+    %th Description
+    %th Posts
+    %th
+    %th
+    %th
+
+  - @categories.each do |category|
+    %tr
+      %td= category.title
+      %td= category.description
+      %td
+        - category.posts.each do |x|
+          = link_to x.title, post_path(x.id) , class: "btn btn-link"
+          %br>/
+      %td= link_to 'Show', category, class: "btn btn-info btn-xs"
+      %td= link_to 'Edit', edit_category_path(category), class: "btn btn-default btn-xs"
+      %td= link_to 'Destroy', category, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: "btn btn-danger btn-xs"
+
+%br
+
+= link_to 'New Category', new_category_path, class: "btn btn-primary"

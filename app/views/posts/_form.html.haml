@@ -1,0 +1,35 @@
+= nested_form_for @post, :html => {:multipart => true, :role => "form", :class => "form-horizontal"} do  |f|
+  - if @post.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@post.errors.count, "error")} prohibited this post from being saved:"
+      %ul
+        - @post.errors.full_messages.each do |msg|
+          %li= msg
+
+  .form-group
+    = f.label :title, :class => 'col-sm-2 control-label'
+    .col-sm-10
+      = f.text_field :title, :class => 'form-control', placeholder: "Title", id: "focusedInput"
+  .form-group
+    = f.label :description, :class => 'col-sm-2 control-label'
+    .col-sm-10
+      = f.text_area :description, :class => 'form-control' ,rows: 3, placeholder: "Description"
+  .form-group
+    = f.label :categories, :class => 'col-sm-2 control-label'
+    .col-sm-10
+      = f.collection_select(:category_ids, Post.all, :id, :title,{:include_blank => 'Please select a Category'}, {:class => 'form-control'})
+  .form-group
+    = f.label :price, :class => 'col-sm-2 control-label'
+    .col-sm-10
+      = f.number_field :price, :class => 'form-control' ,rows: 3, placeholder: "Description"
+  .form-group
+    = f.label "File Input", :class => 'col-sm-2 control-label'
+    .col-sm-10
+      = f.fields_for :images do |i|
+        = i.file_field :photo, :class => 'col-sm-8'
+        = i.link_to_remove "Remove", :class => 'col-sm-2 btn btn-danger btn-xs'
+      = f.link_to_add "add image", :images ,:class => 'col-sm-2 btn btn-xs btn-primary'
+  .form-group
+    .col-sm-offset-2.col-sm-10
+      = f.submit nil, :class => "btn btn-primary"
+

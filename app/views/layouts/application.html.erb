@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title><%= content_for?(:title) ? yield(:title) : "OnlineShop" %><%#= yield(:page_title) %></title>
+  <%= favicon_link_tag '/assets/favicon.ico' %>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <!--[if IE 6]>
+    <%= javascript_include_tag "DD_belatedPNG-min" %>
+  <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <%= csrf_meta_tags %>
+</head>
+<body>
+    <!-- Begin Wrapper -->
+    <div id="wrapper">
+        <!-- Begin Inner -->
+        <div class="inner">
+            <%= render 'layouts/header' %>
+            <!-- Begin Shell -->
+            <div class="shell">
+              <!-- Begin Main -->
+              <div id="main">
+                    <%= render 'layouts/sidebar' %>
+                    <!-- Begin Content-->
+                    <div id="content">
+                      <%== @raw = flash[:notice] ? '<div id="notice" class="alert fade in alert-success">'+flash[:notice]+'</div>'.html_safe : flash[:notice] %>
+                      <%= yield %>
+                    </div>
+                     <!--End Content -->
+                    <div class="cl">&nbsp;</div>
+                    <%= render 'layouts/content-footer' %>
+              </div>
+                <!-- End Main -->
+            </div>
+            <!-- End Shell -->
+        </div>
+        <!-- End Inner -->
+    </div>
+    <!-- End Wrapper -->
+</body>
+</html>
