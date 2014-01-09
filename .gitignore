@@ -13,3 +13,8 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+/config/database.yml
+database.yml
+.idea/OnlineShop.iml
+.idea/workspace.xml
+

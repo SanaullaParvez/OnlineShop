@@ -17,7 +17,7 @@
   .form-group
     = f.label :categories, :class => 'col-sm-2 control-label'
     .col-sm-10
-      = f.collection_select(:category_ids, Post.all, :id, :title,{:include_blank => 'Please select a Category'}, {:class => 'form-control'})
+      = f.collection_select(:category_ids, Category.all, :id, :title,{:include_blank => 'Please select a Category'}, {:class => 'form-control'})
   .form-group
     = f.label :price, :class => 'col-sm-2 control-label'
     .col-sm-10
@@ -26,8 +26,12 @@
     = f.label "File Input", :class => 'col-sm-2 control-label'
     .col-sm-10
       = f.fields_for :images do |i|
-        = i.file_field :photo, :class => 'col-sm-8'
-        = i.link_to_remove "Remove", :class => 'col-sm-2 btn btn-danger btn-xs'
+        - if i.object.new_record?
+          = i.file_field :photo, :class => 'col-sm-8'
+          = i.link_to_remove "Remove", :class => 'col-sm-2 btn btn-danger btn-xs'
+        - else
+          = image_tag(i.object.photo.url(:thumb), :class => 'img-polaroid')
+          = i.check_box :_destroy
       = f.link_to_add "add image", :images ,:class => 'col-sm-2 btn btn-xs btn-primary'
   .form-group
     .col-sm-offset-2.col-sm-10
