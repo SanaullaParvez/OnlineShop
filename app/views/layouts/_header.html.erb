@@ -16,7 +16,7 @@
           <li><%= link_to content_tag(:span, 'About Us'), page_path('about-us') %></li>
           <% if user_signed_in? %>
               <li><a><span>Signed in as <%= current_user.email %></span></a></li>
-              <li><%= link_to content_tag(:span,"Sign out"), destroy_user_session_path, :method => :delete %></li>
+              <li><%= link_to content_tag(:span,"Sign out"),  destroy_user_session_path, :method => :delete %></li>
           <% else %>
               <li><%= link_to content_tag(:span, "Sign up"), new_user_registration_path %></li>
               <li><%= link_to content_tag(:span, "sign in"), new_user_session_path %>

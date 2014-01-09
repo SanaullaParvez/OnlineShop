@@ -1,4 +1,6 @@
 
+
+
 %dl.dl-horizontal
   %dt
     %b Title:
@@ -12,7 +14,7 @@
       %dd= x.title+':'
   %dt
     %b Image:
-    %dd= image_tag(@post.images.first.photo.url)
+    %dd= image_tag(@post.images.first.photo.url(:medium))
   %dt
     %b Price:
     %dd= @post.price
@@ -20,3 +22,7 @@
 = link_to 'Edit', edit_post_path(@post), class: "btn btn-primary"
 \|
 = link_to 'Back', posts_path, class: "btn btn-default"
+
+- content_for :scripts do
+  :javascript
+    $('.carousel').carousel();

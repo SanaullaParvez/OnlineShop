@@ -16,7 +16,7 @@
       %td= category.description
       %td
         - category.posts.each do |x|
-          = link_to x.title, post_path(x.id) , class: "btn btn-link"
+          = link_to x.title, x , class: "btn btn-link"
           %br>/
       %td= link_to 'Show', category, class: "btn btn-info btn-xs"
       %td= link_to 'Edit', edit_category_path(category), class: "btn btn-default btn-xs"
