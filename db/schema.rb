@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140108061200) do
+ActiveRecord::Schema.define(:version => 20140110183912) do
 
   create_table "categories", :force => true do |t|
     t.string   "title"
@@ -29,6 +29,14 @@ ActiveRecord::Schema.define(:version => 20140108061200) do
 
   add_index "category_posts", ["category_id"], :name => "index_category_posts_on_category_id"
   add_index "category_posts", ["post_id"], :name => "index_category_posts_on_post_id"
+
+  create_table "cities", :force => true do |t|
+    t.string   "iso_code"
+    t.string   "name"
+    t.integer  "country_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
 
   create_table "images", :force => true do |t|
     t.integer  "post_id"

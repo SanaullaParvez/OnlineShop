@@ -17,4 +17,5 @@
 database.yml
 .idea/OnlineShop.iml
 .idea/workspace.xml
+/public/*
 

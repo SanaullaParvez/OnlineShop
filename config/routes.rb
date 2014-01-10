@@ -1,5 +1,8 @@
 OnlineShop::Application.routes.draw do
 
+  resources :cities
+
+
   #get "homes/index"
 
   devise_for :users

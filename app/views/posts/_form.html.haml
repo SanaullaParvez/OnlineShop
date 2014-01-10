@@ -9,11 +9,11 @@
   .form-group
     = f.label :title, :class => 'col-sm-2 control-label'
     .col-sm-10
-      = f.text_field :title, :class => 'form-control', placeholder: "Title", id: "focusedInput"
+      = f.text_field :title, :class => 'form-control', :placeholder => "Title", :id => "focusedInput"
   .form-group
     = f.label :description, :class => 'col-sm-2 control-label'
     .col-sm-10
-      = f.text_area :description, :class => 'form-control' ,rows: 3, placeholder: "Description"
+      = f.text_area :description, :class => 'form-control' ,:rows => 3, :placeholder => "Description"
   .form-group
     = f.label :categories, :class => 'col-sm-2 control-label'
     .col-sm-10
@@ -21,7 +21,7 @@
   .form-group
     = f.label :price, :class => 'col-sm-2 control-label'
     .col-sm-10
-      = f.number_field :price, :class => 'form-control' ,rows: 3, placeholder: "Description"
+      = f.number_field :price, :class => 'form-control' ,:rows => 3, :placeholder => "Description"
   .form-group
     = f.label "File Input", :class => 'col-sm-2 control-label'
     .col-sm-10

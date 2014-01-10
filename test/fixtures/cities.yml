@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  iso_code: MyString
+  name: MyString
+  country_id: 1
+
+two:
+  iso_code: MyString
+  name: MyString
+  country_id: 1

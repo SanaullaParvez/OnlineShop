@@ -1,0 +1,27 @@
+= form_for @city do |f|
+  - if @city.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@city.errors.count, "error")} prohibited this city from being saved:"
+      %ul
+        - @city.errors.full_messages.each do |msg|
+          %li= msg
+
+
+
+  .form-group
+    = f.label :iso_code, :class => 'col-sm-2 control-label'
+    .col-sm-10
+      = f.text_field :iso_code, :class => 'form-control'
+  .form-group
+    = f.label :name, :class => 'col-sm-2 control-label', :placeholder => "name", :id => "focusedInput"
+    .col-sm-10
+      = f.text_field :name, :class => 'form-control'
+  .form-group
+    = f.label :country, :class => 'col-sm-2 control-label'
+    .col-sm-10
+      = f.collection_select(:country_id, Category.all, :id, :title,{:include_blank => 'Please select a Category'}, {:class => 'form-control'})
+
+  .form-group
+    .col-sm-offset-2.col-sm-10
+      = f.submit nil, :class => "btn btn-primary"
+

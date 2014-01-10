@@ -19,9 +19,9 @@
     %b Price:
     %dd= @post.price
 
-= link_to 'Edit', edit_post_path(@post), class: "btn btn-primary"
+= link_to 'Edit', edit_post_path(@post), :class => "btn btn-primary"
 \|
-= link_to 'Back', posts_path, class: "btn btn-default"
+= link_to 'Back', posts_path, :class => "btn btn-default"
 
 - content_for :scripts do
   :javascript
