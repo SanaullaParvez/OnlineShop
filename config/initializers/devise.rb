@@ -4,7 +4,7 @@ Devise.setup do |config|
   # The secret key used by Devise. Devise uses this key to generate
   # random tokens. Changing this key will render invalid all existing
   # confirmation, reset password and unlock tokens in the database.
-  config.secret_key = '425818f72f96fec7e7053ed565fc4b4bb2f432f3898428999cfea5dbfab4004bdafba1448556660ddc6c61a2a5914092a1e4fcf84095c8d57317031331089cbc'
+  config.secret_key = '80e8abb878d43fbb358b4aefd1137b876bbefdb7642594bb0e5cf5dc7de7afd6f8a7f8426c1dafbad01e9a26652f5675d16909ea734469b9513ef7ec797e91b6'
 
   # ==> Mailer Configuration
   # Configure the e-mail address which will be shown in Devise::Mailer,
@@ -29,7 +29,7 @@ Devise.setup do |config|
   # session. If you need permissions, you should implement that in a before filter.
   # You can also supply a hash where the value is a boolean determining whether
   # or not authentication should be aborted when the value is not present.
-  config.authentication_keys = [ :email ]
+  # config.authentication_keys = [ :email ]
 
   # Configure parameters from the request object used for authentication. Each entry
   # given should be a request method and it will automatically be passed to the
@@ -95,7 +95,7 @@ Devise.setup do |config|
   config.stretches = Rails.env.test? ? 1 : 10
 
   # Setup a pepper to generate the encrypted password.
-  # config.pepper = '9b61bdbf3da987c6cb24b8e98dbf39e34f8fca858f5b3912a6eb9f269848944792c50db8fc35c244c88e19c5806be0bb5bcc15863492b18c12c48a8749fe4b40'
+  # config.pepper = '12ac86d9c622155744edc9d8bfc2525ff89964464e46cddabaa5391ad60d1cfbf47688b7db3b9ab4c1197d6b2e2627c893cc9f0a222fa42a01facfe3036eeb35'
 
   # ==> Configuration for :confirmable
   # A period that the user is allowed to access the website even without
@@ -135,7 +135,7 @@ Devise.setup do |config|
 
   # ==> Configuration for :validatable
   # Range for password length. Default is 8..128.
-  config.password_length = 6..128
+  config.password_length = 1..128
 
   # Email regex used to validate email formats. It simply asserts that
   # one (and only one) @ exists in the given string. This is mainly
@@ -223,7 +223,6 @@ Devise.setup do |config|
 
   # The default HTTP method used to sign out a resource. Default is :delete.
   config.sign_out_via = :get
-  config.mailer = "Devise::Mailer"
 
   # ==> OmniAuth
   # Add a new OmniAuth provider. Check the wiki for more information on setting

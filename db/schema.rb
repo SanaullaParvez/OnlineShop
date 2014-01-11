@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140110183912) do
+ActiveRecord::Schema.define(:version => 20140111085030) do
 
   create_table "categories", :force => true do |t|
     t.string   "title"
@@ -38,6 +38,30 @@ ActiveRecord::Schema.define(:version => 20140110183912) do
     t.datetime "updated_at", :null => false
   end
 
+  add_index "cities", ["country_id"], :name => "index_cities_on_country_id"
+
+  create_table "countries", :force => true do |t|
+    t.string   "iso_code"
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "customers", :force => true do |t|
+    t.string   "name"
+    t.integer  "user_id"
+    t.text     "address"
+    t.integer  "city_id"
+    t.integer  "area_code"
+    t.integer  "phone"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.integer  "country_id"
+  end
+
+  add_index "customers", ["city_id"], :name => "index_customers_on_city_id"
+  add_index "customers", ["user_id"], :name => "index_customers_on_user_id"
+
   create_table "images", :force => true do |t|
     t.integer  "post_id"
     t.datetime "created_at",         :null => false
@@ -59,7 +83,7 @@ ActiveRecord::Schema.define(:version => 20140110183912) do
   end
 
   create_table "users", :force => true do |t|
-    t.string   "name"
+    t.string   "username"
     t.datetime "created_at",                             :null => false
     t.datetime "updated_at",                             :null => false
     t.string   "email",                  :default => "", :null => false

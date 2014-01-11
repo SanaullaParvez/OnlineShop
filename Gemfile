@@ -29,6 +29,7 @@ gem 'faker'
 gem 'devise'
 gem 'high_voltage', '~> 2.1.0'
 gem "nested_form"
+gem "simple_form"
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
 
