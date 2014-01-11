@@ -5,6 +5,7 @@
   <div class="form-inputs">
     <%#= f.input :username, label: 'Your username please' %>
     <%= f.input :email, placeholder: 'user@domain.com' %>
+    <%= f.label :password, :class => "sdf" %>
     <%= f.input :password, hint: 'No special characters.', input_html: { maxlength: 20 }  %>
     <%= f.input :password_confirmation, label: false %>
     <%#= f.input :remember_me, inline_label: 'Yes, remember me', as: :text %>

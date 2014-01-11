@@ -11,11 +11,21 @@
 #=begin
 Category.create(id: 1, title: "Mobile", description: "A mobile device is a small, handheld computing device, typically having a display screen with touch input and/or a miniature keyboard and weighing less than 2 pounds")
 Category.create(id: 2, title: "Toys", description: "an object for a child to play with, typically a model or miniature replica of something.")
+Category.create(id: 3, title: "Homes for Rent", description: "")
+Category.create(id: 4, title: "Homes for Sale", description: "")
+Category.create(id: 5, title: "Mobile Phones", description: "")
+Category.create(id: 6, title: "Electronics", description: "")
+Category.create(id: 7, title: "Computers", description: "")
+Category.create(id: 7, title: "Applicances", description: "")
+Category.create(id: 7, title: "Furniture", description: "")
+Category.create(id: 7, title: "Jewlery", description: "")
+
 Post.create(id: 1, title: "Nokia E51", description: "Nokia E51 is one of the leaner enterprise devices from the Finnish .... like the media player, N-Gage games, to the forefront. Nokia E90 is equipped with Bluetooth, Wi-Fi, and GPS, and has a solid set of productivity and communication", image: "string", price: 4325, order: 1)
 Post.create(id: 2, title: " Nokia N73", description: "All those features are enough to make it a worthy successor of the highly popular and capable Nokia N73", image: "string", price: 4325, order: 2)
 CategoryPost.create(id: 1, category_id: 1, post_id: 1)
 CategoryPost.create(id: 2, category_id: 1, post_id: 2)
 #=end
+=begin
 Country.delete_all
 Country.create(:id => 1, :iso_code => "AD", :name => "Andorra")
 Country.create(:id => 2, :iso_code => "AE", :name => "United Arab Emirates")
@@ -268,7 +278,7 @@ Country.create(:id => 248, :iso_code => "ZM", :name => "Zambia")
 Country.create(:id => 249, :iso_code => "ZW", :name => "Zimbabwe")
 Country.create(:id => 250, :iso_code => "CS", :name => "Serbia and Montenegro")
 Country.create(:id => 251, :iso_code => "AN", :name => "Netherlands Antilles")
-
+=end
 =begin
 City.delete_all
 City.create(:id=>1,:iso_code=>"06",:name=>"Parroquia de Sant Julia de Loria",:country_id=>1)

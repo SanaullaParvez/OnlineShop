@@ -15,7 +15,8 @@
           <li><%= link_to content_tag(:span, 'Home') , page_path('home') %></li>
           <li><%= link_to content_tag(:span, 'About Us'), page_path('about-us') %></li>
           <% if user_signed_in? %>
-              <li><%= link_to content_tag(:span,current_user.email) , edit_user_registration_path(current_user.id) %></li>
+              <%#= raise current_user.inspect %>
+              <li><%= link_to content_tag(:span,current_user.email) , edit_user_registration_path(current_user.id), method: :delete %></li>
               <li><%= link_to content_tag(:span,"Sign out"),  destroy_user_session_path, :method => :delete %></li>
           <% else %>
               <li><%= link_to content_tag(:span, "Sign up"), new_user_registration_path %></li>

@@ -19,7 +19,7 @@ OnlineShop::Application.routes.draw do
   get 'categories/:id/edit' => 'categories#edit', :as => :edit_category
   get 'categories/:id' => 'categories#show', :as => :category
   put 'categories/:id' => 'categories#update'
-  delete 'categories/:id' => 'categories#destroy', :as => :category
+  delete 'categories/:id' => 'categories#destroy'
 
   resources :posts
 
