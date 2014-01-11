@@ -13,4 +13,18 @@
  */
 
 
-
+ div.or{
+     border-top: 1px solid rgb(223, 223, 223);
+     margin-top: 10px;
+     padding-top: 20px;
+     position: relative;
+ }
+span.mm-or{
+    color: rgb(102, 102, 102);
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    top: -8px;
+    width: 40px;
+    left: 350px;
+}

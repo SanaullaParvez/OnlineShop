@@ -24,6 +24,7 @@
                     <%= render 'layouts/sidebar' %>
                     <!-- Begin Content-->
                     <div id="content">
+                      <%#== @raw = flash[:alert] ? '<div id="notice" class="alert fade in alert-success">'+flash[:notice]+'</div>'.html_safe : flash[:notice] %>
                       <%== @raw = flash[:notice] ? '<div id="notice" class="alert fade in alert-success">'+flash[:notice]+'</div>'.html_safe : flash[:notice] %>
                       <%= yield %>
                     </div>
