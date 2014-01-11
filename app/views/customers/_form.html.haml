@@ -1,0 +1,45 @@
+= form_for @customer, :html => { :role => "form", :class => "form-horizontal"} do |f|
+  - if @customer.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@customer.errors.count, "error")} prohibited this customer from being saved:"
+      %ul
+        - @customer.errors.full_messages.each do |msg|
+          %li= msg
+    -#<div class="col-sm-10"><%= f.collection_select(:country_id, Country.all, :id, :name, {:include_blank => 'Please select a District'}, {:class => 'form-control'}) %></div></div>
+    -#<div class="col-sm-10"><%= f.collection_select(:city_id, City.all, :id, :name,{:include_blank => 'Please select a District'}, {:class => 'form-control'}) %></div></div>
+  .form-group
+    = f.label :name, :class => 'col-sm-2 control-label'
+    .col-sm-10
+      = f.text_field :name, :autofocus => true, :class => 'form-control', placeholder: "Your Full Name"
+  .form-group
+    = f.label :user, :class => 'col-sm-2 control-label'
+    .col-sm-10
+      = f.text_field :user, :class => 'form-control', placeholder: "Your Full Address", value: current_user.email, :disabled => true
+      = f.hidden_field :user_id, :class => 'form-control', placeholder: "Your Full Address", value: current_user.id
+  .form-group
+    = f.label :address, :class => 'col-sm-2 control-label'
+    .col-sm-10
+      = f.text_area :address, :class => 'form-control',rows: 3, placeholder: "Your Full Address"
+
+  .form-group
+    = f.label :country, :class => 'col-sm-2 control-label'
+    .col-sm-10
+
+      = f.collection_select(:country_id, Country.all, :id, :name, {:include_blank => 'Please select a Country'}, {:class => 'form-control'})
+
+  .form-group
+    = f.label :city, :class => 'col-sm-2 control-label'
+    .col-sm-10
+      = f.collection_select(:city_id, City.all, :id, :name, {:include_blank => 'Please select a City'}, {:class => 'form-control'})
+
+  .form-group
+    = f.label :area_code, :class => 'col-sm-2 control-label'
+    .col-sm-10
+      = f.number_field :area_code, :class => 'form-control', placeholder: "Area Code"
+  .form-group
+    = f.label :phone, :class => 'col-sm-2 control-label'
+    .col-sm-10
+      = f.number_field :phone, :class => 'form-control', placeholder: "Enter Your Phone Number"
+  .form-group
+    .col-sm-offset-2.col-sm-10
+      = f.submit nil, :class => "btn btn-primary"
