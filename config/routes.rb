@@ -1,14 +1,14 @@
 OnlineShop::Application.routes.draw do
 
-  resources :customers
-  #resources :users, :as => 'customer'
+  resources :cities
 
+
+  #get "homes/index"
 
   devise_for :users
 
-  get "cities/index"
+  #resources :users
 
-  get "countries/index"
 
   #resources :categories
   get 'categories' => 'categories#index', :as => :categories

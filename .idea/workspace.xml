@@ -1,52 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" name="Default" comment="" />
+    <list default="true" id="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140110183912_create_cities.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/cities/_form.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/cities/edit.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/users/sessions/new.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/cities/new.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/cities/show.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/OnlineShop.iml" afterPath="$PROJECT_DIR$/.idea/OnlineShop.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/_form.html.haml" afterPath="$PROJECT_DIR$/app/views/posts/_form.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_sidebar.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_sidebar.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/categories_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/categories_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/cities.yml" afterPath="$PROJECT_DIR$/test/fixtures/cities.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/cities_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/cities_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/functional/cities_controller_test.rb" afterPath="$PROJECT_DIR$/test/functional/cities_controller_test.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/city.rb" afterPath="$PROJECT_DIR$/app/models/city.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/devise.rb" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/edit.html.haml" afterPath="$PROJECT_DIR$/app/views/posts/edit.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/categories/index.html.haml" afterPath="$PROJECT_DIR$/app/views/categories/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/cities/index.html.haml" afterPath="$PROJECT_DIR$/app/views/cities/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/index.html.haml" afterPath="$PROJECT_DIR$/app/views/posts/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/new.html.haml" afterPath="$PROJECT_DIR$/app/views/posts/new.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/posts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="OnlineShop.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389241327414" ignored="false" />
+    <file path="/Dummy.txt" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389427053076" ignored="false" />
     <file path="/database.yml" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1388979031982" ignored="false" />
-    <file path="/routes.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389421205168" ignored="false" />
+    <file path="/routes.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389286246272" ignored="false" />
     <file path="/category.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1388982384260" ignored="false" />
     <file path="/post.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389163572098" ignored="false" />
     <file path="/20140106013017_create_posts.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1388980612700" ignored="false" />
-    <file path="/seeds.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389258957191" ignored="false" />
-    <file path="/index.html.haml" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389203979067" ignored="false" />
-    <file path="/a.dummy" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389210782539" ignored="false" />
-    <file path="/_form.html.haml" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389424349747" ignored="false" />
+    <file path="/seeds.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389079330348" ignored="false" />
+    <file path="/index.html.haml" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389380668691" ignored="false" />
+    <file path="/a.dummy" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389105591482" ignored="false" />
+    <file path="/_form.html.haml" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389380540556" ignored="false" />
     <file path="/os.rake" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1388985791438" ignored="false" />
-    <file path="/show.html.haml" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389426629213" ignored="false" />
-    <file path="/application.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389423111361" ignored="false" />
+    <file path="/show.html.haml" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389380287776" ignored="false" />
+    <file path="/application.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389289114374" ignored="false" />
     <file path="$PROJECT_DIR$/../testassociation/app/views/layouts/application.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389198445095" ignored="false" />
     <file path="$PROJECT_DIR$/../testassociation/app/views/layouts/_header.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389166141842" ignored="false" />
     <file path="$PROJECT_DIR$/../testassociation/app/views/layouts/_sidebar.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1388987969560" ignored="false" />
     <file path="$PROJECT_DIR$/../testassociation/app/controllers/posts_controller.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389156162669" ignored="false" />
-    <file path="/posts_controller.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389164911420" ignored="false" />
+    <file path="/posts_controller.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389378538201" ignored="false" />
     <file path="$PROJECT_DIR$/../testassociation/app/views/comments/_form.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1388988505340" ignored="false" />
-    <file path="/_form.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389412562774" ignored="false" />
+    <file path="/_form.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389159760278" ignored="false" />
     <file path="$PROJECT_DIR$/../testassociation/Gemfile" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1388989089102" ignored="false" />
     <file path="/category_post.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1388989427114" ignored="false" />
     <file path="/home.css.scss" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389005169531" ignored="false" />
-    <file path="/user.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389422304241" ignored="false" />
-    <file path="/development.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389161472621" ignored="false" />
+    <file path="/user.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389284465806" ignored="false" />
+    <file path="/development.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389294047278" ignored="false" />
     <file path="/pages_controller.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1388996334135" ignored="false" />
     <file path="/about-us.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1388996472391" ignored="false" />
     <file path="/terms-and-condition.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389074362555" ignored="false" />
     <file path="/home.js" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389001448629" ignored="false" />
-    <file path="/_header.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389188480941" ignored="false" />
+    <file path="/_header.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389285405634" ignored="false" />
     <file path="/high_voltage.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389068666371" ignored="false" />
     <file path="/students_controller.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389070517993" ignored="false" />
     <file path="/show.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389098971920" ignored="false" />
-    <file path="/application.css" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389212996069" ignored="false" />
+    <file path="/application.css" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389087896243" ignored="false" />
     <file path="/home.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389074324283" ignored="false" />
-    <file path="/_sidebar.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389207765839" ignored="false" />
+    <file path="/_sidebar.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389270819481" ignored="false" />
     <file path="/application_controller.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389088779054" ignored="false" />
     <file path="/application.js" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389093095122" ignored="false" />
     <file path="$PROJECT_DIR$/../testassociation/app/models/user.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389097596604" ignored="false" />
-    <file path="$PROJECT_DIR$/../SchoolManagementSystem/config/routes.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389259575315" ignored="false" />
+    <file path="$PROJECT_DIR$/../SchoolManagementSystem/config/routes.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389159866407" ignored="false" />
     <file path="$PROJECT_DIR$/../SchoolManagementSystem/app/models/department.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389098554957" ignored="false" />
-    <file path="$PROJECT_DIR$/../SchoolManagementSystem/app/views/students/_form.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389412562774" ignored="false" />
-    <file path="$PROJECT_DIR$/../SchoolManagementSystem/app/models/student.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389263175065" ignored="false" />
+    <file path="$PROJECT_DIR$/../SchoolManagementSystem/app/views/students/_form.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389098453665" ignored="false" />
+    <file path="$PROJECT_DIR$/../SchoolManagementSystem/app/models/student.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389098488099" ignored="false" />
     <file path="/department.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389098554957" ignored="false" />
     <file path="$PROJECT_DIR$/../SchoolManagementSystem/db/migrate/20140107124454_remove_student_from_department.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389098721321" ignored="false" />
     <file path="$PROJECT_DIR$/../SchoolManagementSystem/db/migrate/20140107124535_remove_student_from_departments.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389098809283" ignored="false" />
@@ -54,14 +89,14 @@
     <file path="$PROJECT_DIR$/../SchoolManagementSystem/app/views/students/show.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389098973391" ignored="false" />
     <file path="/index.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389105269207" ignored="false" />
     <file path="$PROJECT_DIR$/../SchoolManagementSystem/app/views/students/index.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389098992910" ignored="false" />
-    <file path="$PROJECT_DIR$/../SchoolManagementSystem/Gemfile" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389411959973" ignored="false" />
+    <file path="$PROJECT_DIR$/../SchoolManagementSystem/Gemfile" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389099047480" ignored="false" />
     <file path="$PROJECT_DIR$/../SchoolManagementSystem/public/device-help.txt" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389099314675" ignored="false" />
-    <file path="$PROJECT_DIR$/../SchoolManagementSystem/config/environments/development.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389255993702" ignored="false" />
-    <file path="$PROJECT_DIR$/../SchoolManagementSystem/app/views/layouts/application.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389246128752" ignored="false" />
-    <file path="$PROJECT_DIR$/../SchoolManagementSystem/db/schema.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389263308524" ignored="false" />
-    <file path="$PROJECT_DIR$/../SchoolManagementSystem/app/models/teacher.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389258761249" ignored="false" />
+    <file path="$PROJECT_DIR$/../SchoolManagementSystem/config/environments/development.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389099660386" ignored="false" />
+    <file path="$PROJECT_DIR$/../SchoolManagementSystem/app/views/layouts/application.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389159097614" ignored="false" />
+    <file path="$PROJECT_DIR$/../SchoolManagementSystem/db/schema.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389104501954" ignored="false" />
+    <file path="$PROJECT_DIR$/../SchoolManagementSystem/app/models/teacher.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389104350529" ignored="false" />
     <file path="$PROJECT_DIR$/../SchoolManagementSystem/app/views/teachers/index.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389105346855" ignored="false" />
-    <file path="$PROJECT_DIR$/../SchoolManagementSystem/app/controllers/teachers_controller.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389258136355" ignored="false" />
+    <file path="$PROJECT_DIR$/../SchoolManagementSystem/app/controllers/teachers_controller.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389159245160" ignored="false" />
     <file path="/teachers_controller.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389159244609" ignored="false" />
     <file path="$PROJECT_DIR$/../SchoolManagementSystem/app/controllers/application_controller.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389155752530" ignored="false" />
     <file path="$PROJECT_DIR$/../SchoolManagementSystem/app/views/teachers/_form.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389159932062" ignored="false" />
@@ -72,31 +107,15 @@
     <file path="$PROJECT_DIR$/../testassociation/app/views/sessions/new.html.haml" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389166519255" ignored="false" />
     <file path="/new.html.haml" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389166413083" ignored="false" />
     <file path="$PROJECT_DIR$/../testassociation/app/views/users/new.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389166508114" ignored="false" />
-    <file path="/new.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389215972432" ignored="false" />
+    <file path="/new.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389288729963" ignored="false" />
     <file path="$PROJECT_DIR$/../testassociation/app/views/posts/_form.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389179355935" ignored="false" />
     <file path="/homes_controller.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389182610991" ignored="false" />
     <file path="/edit.html.haml" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389194696972" ignored="false" />
-    <file path="/city.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389249978270" ignored="false" />
-    <file path="/country.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389426556481" ignored="false" />
-    <file path="$PROJECT_DIR$/../SchoolManagementSystem/app/views/teachers/registrations/new.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389211084639" ignored="false" />
-    <file path="$PROJECT_DIR$/../SchoolManagementSystem/app/views/devise/registrations/new.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389211275294" ignored="false" />
-    <file path="/_links.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389212093127" ignored="false" />
-    <file path="/20140106065422_create_users.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389246359141" ignored="false" />
-    <file path="/20140108184845_create_cities.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389217130861" ignored="false" />
-    <file path="/20140106013337_create_categories.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389242050930" ignored="false" />
-    <file path="$PROJECT_DIR$/../SchoolManagementSystem/Rakefile" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389245134449" ignored="false" />
-    <file path="/customer.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389426537410" ignored="false" />
-    <file path="$PROJECT_DIR$/../SchoolManagementSystem/db/migrate/20131221113021_create_students.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389262622214" ignored="false" />
-    <file path="/20131221113021_create_students.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389257603998" ignored="false" />
-    <file path="/student.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389263086120" ignored="false" />
-    <file path="$PROJECT_DIR$/../SchoolManagementSystem/db/seeds.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389258958993" ignored="false" />
-    <file path="$PROJECT_DIR$/../SchoolManagementSystem/db/migrate/20131218090041_create_universities.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389258194099" ignored="false" />
-    <file path="/teacher.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389258633475" ignored="false" />
-    <file path="/20140108061200_add_attachment_photo_to_images.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389260282916" ignored="false" />
-    <file path="$PROJECT_DIR$/../SchoolManagementSystem/app/assets/javascripts/application.js" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389412019282" ignored="false" />
-    <file path="/customers_controller.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389422432339" ignored="false" />
-    <file path="/2013232_create_countries.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389423895958" ignored="false" />
-    <file path="/20140111073321_add_country_id_to_customer.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389425643496" ignored="false" />
+    <file path="/.gitignore" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389379082713" ignored="false" />
+    <file path="/posts.css.scss" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389271133007" ignored="false" />
+    <file path="$USER_HOME$/practice/blogging/app/views/posts/show.html.erb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389271468219" ignored="false" />
+    <file path="/devise.rb" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389287743020" ignored="false" />
+    <file path="$USER_HOME$/practice/rubbama/app/views/posts/show.html.haml" changelist="9fbec689-c5fb-487a-9f7d-e3e2492fb91c" time="1389292218160" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,46 +135,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="50" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/customers/_form.html.haml">
+        <entry file="file://$PROJECT_DIR$/app/views/cities/_form.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="139" selection-start="1618" selection-end="1618" vertical-scroll-proportion="-11.25">
+            <state line="18" column="78" selection-start="593" selection-end="593" vertical-scroll-proportion="-11.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20140111073321_add_country_id_to_customer.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20140111073321_add_country_id_to_customer.rb">
+      <file leaf-file-name="_form.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/_form.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="48" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+            <state line="18" column="70" selection-start="804" selection-end="804" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="country.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/country.rb">
+      <file leaf-file-name="show.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/cities/show.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="21" selection-start="119" selection-end="128" vertical-scroll-proportion="0.0">
+            <state line="14" column="50" selection-start="217" selection-end="217" vertical-scroll-proportion="-8.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="countries_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/countries_controller.rb">
+      <file leaf-file-name="edit.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/edit.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="21" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+            <state line="4" column="34" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.haml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/customers/show.html.haml">
+      <file leaf-file-name="edit.html.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/cities/edit.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="13" selection-start="197" selection-end="206" vertical-scroll-proportion="0.5084746">
+            <state line="4" column="34" selection-start="60" selection-end="69" vertical-scroll-proportion="0.116959065">
               <folding />
             </state>
           </provider>
@@ -164,43 +192,34 @@
       <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4080" column="11" selection-start="306125" selection-end="306125" vertical-scroll-proportion="-993.68854">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2013232_create_countries.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/2013232_create_countries.rb">
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="20" selection-start="137" selection-end="141" vertical-scroll-proportion="0.0">
+            <state line="24" column="42" selection-start="410" selection-end="410" vertical-scroll-proportion="-12.708333">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20140108184845_create_cities.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20140108184845_create_cities.rb">
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/cities/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="14" selection-start="0" selection-end="237" vertical-scroll-proportion="0.0">
+            <state line="12" column="53" selection-start="158" selection-end="158" vertical-scroll-proportion="-7.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="city.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/city.rb">
+      <file leaf-file-name="new.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/posts/new.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="20" selection-start="114" selection-end="122" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customer.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="19" selection-start="92" selection-end="93" vertical-scroll-proportion="0.0">
+            <state line="4" column="39" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -213,25 +232,33 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/city.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
-        <option value="$PROJECT_DIR$/db/migrate/20140108061200_add_attachment_photo_to_images.rb" />
-        <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_header.html.erb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/customers_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/2013232_create_countries.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20140111073321_add_country_id_to_customer.rb" />
-        <option value="$PROJECT_DIR$/app/views/customers/_form.html.haml" />
-        <option value="$PROJECT_DIR$/app/models/customer.rb" />
-        <option value="$PROJECT_DIR$/app/models/country.rb" />
-        <option value="$PROJECT_DIR$/app/views/customers/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/posts.css.scss" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/categories_controller.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/views/cities/edit.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/posts/new.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/cities/new.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/cities/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/posts/edit.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/posts/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/posts/show.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/cities/_form.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/posts/_form.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/cities/index.html.haml" />
       </list>
     </option>
   </component>
@@ -239,7 +266,7 @@
     <option name="x" value="65" />
     <option name="y" value="24" />
     <option name="width" value="1301" />
-    <option name="height" value="728" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -286,7 +313,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -303,48 +329,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="OnlineShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="log" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OnlineShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -408,6 +392,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="initializers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="environments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -427,6 +429,54 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="users" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sessions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -470,7 +520,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="customers" />
+              <option name="myItemId" value="homes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -492,7 +542,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="countries" />
+              <option name="myItemId" value="cities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="categories" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -546,8 +618,71 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineShop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -831,7 +966,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="728" extended-state="0" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -917,114 +1052,106 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/categories_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+        <state line="3" column="35" selection-start="113" selection-end="131" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140109064417_create_customers.rb">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="18" selection-start="172" selection-end="182" vertical-scroll-proportion="0.0">
+        <state line="19" column="9" selection-start="514" selection-end="514" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/cities.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/homes.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/posts.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/new.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="39" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/uri/generic.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/cities/new.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="580" column="8" selection-start="13750" selection-end="13750" vertical-scroll-proportion="1.3956693">
+        <state line="4" column="31" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/posts/edit.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="14" selection-start="275" selection-end="283" vertical-scroll-proportion="0.0">
+        <state line="4" column="34" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/customers_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="838" selection-end="838" vertical-scroll-proportion="0.0">
+        <state line="21" column="50" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/posts/_form.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="25" selection-start="934" selection-end="934" vertical-scroll-proportion="-12.208333">
+        <state line="18" column="70" selection-start="804" selection-end="804" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/city.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/cities/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="20" selection-start="114" selection-end="122" vertical-scroll-proportion="0.0">
+        <state line="14" column="50" selection-start="217" selection-end="217" vertical-scroll-proportion="-8.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cities/_form.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="78" selection-start="593" selection-end="593" vertical-scroll-proportion="-11.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4080" column="11" selection-start="306125" selection-end="306125" vertical-scroll-proportion="-993.68854">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140108184845_create_cities.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/posts/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="14" selection-start="0" selection-end="237" vertical-scroll-proportion="0.0">
+        <state line="24" column="42" selection-start="410" selection-end="410" vertical-scroll-proportion="-12.708333">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/2013232_create_countries.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/cities/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="20" selection-start="137" selection-end="141" vertical-scroll-proportion="0.0">
+        <state line="12" column="53" selection-start="158" selection-end="158" vertical-scroll-proportion="-7.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/countries_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/cities/edit.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="21" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140111073321_add_country_id_to_customer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="48" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/customers/_form.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="139" selection-start="1618" selection-end="1618" vertical-scroll-proportion="-11.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/customer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="19" selection-start="92" selection-end="93" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/country.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="21" selection-start="119" selection-end="128" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/customers/show.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="197" selection-end="206" vertical-scroll-proportion="0.5084746">
+        <state line="4" column="34" selection-start="60" selection-end="69" vertical-scroll-proportion="0.116959065">
           <folding />
         </state>
       </provider>

@@ -1,0 +1,17 @@
+%p#notice= notice
+
+%dl.dl-horizontal
+  %dt
+    %b name:
+  %dd= @city.name
+  %dt
+    %b Iso Code:
+  %dd= @city.iso_code
+  %dt
+    %b country:
+  %dd= @city.country_id
+
+
+= link_to 'Edit', edit_city_path(@city), :class => "btn btn-primary"
+\|
+= link_to 'Back', cities_path, :class => "btn btn-default"

@@ -20,7 +20,7 @@
           <label>Keyword</label>
           <input type="text" class="blink" name="keyword" />
           <label>Category</label>
-          <%= select("post", "category_ids", @categories.collect {|p| [ p.title, p.id ] }, { :prompt => "-- Select Category --" }) %>
+          <%#= select("post", "category_id", @categories.collect {|p| [ p.title, p.id ] }, { :prompt => "-- Select Category --" }) %>
           <div class="price">
             <label>Price</label>
             <%= select("post", "price", [10,20,30,40,50].collect {|p| [ '$'+p.to_s,p ] }, { :size => 1} ) %>

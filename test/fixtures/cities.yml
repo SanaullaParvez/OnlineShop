@@ -3,9 +3,9 @@
 one:
   iso_code: MyString
   name: MyString
-  country: 
+  country_id: 1
 
 two:
   iso_code: MyString
   name: MyString
-  country: 
+  country_id: 1

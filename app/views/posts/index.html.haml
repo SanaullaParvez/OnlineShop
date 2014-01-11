@@ -22,10 +22,10 @@
           = x.title
       %td= post.image
       %td= post.price
-      %td= link_to 'Show', post, class: "btn btn-info btn-xs"
-      %td= link_to 'Edit', edit_post_path(post), class: "btn btn-default btn-xs"
-      %td= link_to 'Destroy', post, :method => :delete, :data => { :confirm => 'Are you sure?' }, class: "btn btn-danger btn-xs"
+      %td= link_to 'Show', post, :class => "btn btn-info btn-xs"
+      %td= link_to 'Edit', edit_post_path(post), :class => "btn btn-default btn-xs"
+      %td= link_to 'Destroy', post, :method => :delete, :data => { :confirm => 'Are you sure?' }, :class => "btn btn-danger btn-xs"
 
 %br
 
-= link_to 'New Post', new_post_path, class: "btn btn-primary"
+= link_to 'New Post', new_post_path, :class => "btn btn-primary"
