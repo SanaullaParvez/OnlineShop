@@ -38,7 +38,7 @@
 * { margin: 0; padding: 0; outline: 0; }
 
 body {
-  font-size: 12px;
+  font-size: 12px !important;
   line-height: 20px;
   font-family: "Trebuchet MS", arial, sans-serif;
   color: #375970;
@@ -72,7 +72,7 @@ textarea { overflow: auto; }
 #logo { float: left; display: inline; padding-top: 23px; padding-bottom: 20px; }
 #logo a { width: 189px; height: 38px; display: block; background: url('/assets/logo.png') no-repeat 0 0; }
 
-#account { float: right; display: inline; padding-top: 24px; width: 173px;  }
+#account { float: right; display: inline; padding-top: 24px; width: 191px;  }
 #account a.view-account { padding-left: 33px; display: block; line-height: 17px; background: url('/assets/shop.png') no-repeat 0 0; color: #ffe75f; margin-bottom: 2px; }
 #account span { float: left; display: inline; padding-left: 1px; padding-right: 18px; color: #ffe75f; }
 
