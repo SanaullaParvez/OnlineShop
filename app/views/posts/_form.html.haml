@@ -3,9 +3,9 @@
     #error_explanation
       .page-header
         %h2= "#{pluralize(@post.errors.count, "error")} prohibited this post from being saved:"
-          %ul
-          - @post.errors.full_messages.each do |msg|
-            %li= msg
+        %ul
+        - @post.errors.full_messages.each do |msg|
+          %li= msg
 
   .form-group
     = f.label :title, :class => 'col-sm-2 control-label'
