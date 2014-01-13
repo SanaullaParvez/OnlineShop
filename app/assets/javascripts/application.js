@@ -11,7 +11,7 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 // require jquery
-// require jquery_ujs
+
 
 // require_tree .
 
@@ -21,7 +21,10 @@
  *= require_self
  *= require jquery-1.6.2.min
  *= require jquery.jcarousel.min
+ *= require jquery_ujs
  *= require functions
+ *= require bootstrap.min
+ *= require bootstrap
  */
 //= require jquery_nested_form
 
