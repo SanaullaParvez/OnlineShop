@@ -47,20 +47,6 @@ ActiveRecord::Schema.define(:version => 20140113065545) do
     t.datetime "updated_at", :null => false
   end
 
-  create_table "customers", :force => true do |t|
-    t.string   "name"
-    t.integer  "user_id"
-    t.text     "address"
-    t.integer  "city_id"
-    t.integer  "area_code"
-    t.integer  "phone"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
-    t.integer  "country_id"
-  end
-
-  add_index "customers", ["user_id"], :name => "index_customers_on_user_id"
-
   create_table "images", :force => true do |t|
     t.integer  "post_id"
     t.datetime "created_at",         :null => false
