@@ -23,7 +23,10 @@
       %td= post.image
       %td= post.price
       %td= link_to 'Show', post, :class => "btn btn-info btn-xs"
-      %td= link_to 'Edit', edit_post_path(post), :class => "btn btn-default btn-xs"
+      - if can? :update, post
+
+
+        %td= link_to 'Edit', edit_post_path(post), :class => "btn btn-default btn-xs"
       %td= link_to 'Destroy', post, :method => :delete, :data => { :confirm => 'Are you sure?' }, :class => "btn btn-danger btn-xs"
 
 %br
