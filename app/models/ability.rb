@@ -8,7 +8,7 @@ class Ability
     if user.has_role? :admin
       can :manage, :all
     elsif user.has_role? :user
-      can :read, :all
+      can :manage, :all
 
 
       can :manage, Post, :user_id => user.id
