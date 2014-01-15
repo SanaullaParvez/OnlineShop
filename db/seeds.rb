@@ -23,11 +23,17 @@ Category.create(id: 7, title: "Jewlery", description: "")
 Post.delete_all
 Post.create(id: 1, title: "Nokia E51", description: "Nokia E51 is one of the leaner enterprise devices from the Finnish .... like the media player, N-Gage games, to the forefront. Nokia E90 is equipped with Bluetooth, Wi-Fi, and GPS, and has a solid set of productivity and communication", image: "string", price: 4325, order: 1)
 Post.create(id: 2, title: " Nokia N73", description: "All those features are enough to make it a worthy successor of the highly popular and capable Nokia N73", image: "string", price: 4325, order: 2)
+Post.create(id: 3, :title => 'Programming Ruby 1.9',
+               :description => "
+Ruby is the fastest growing and most exciting dynamic language
+out there. If you need to get working programs delivered fast,
+you should add Ruby to your toolbox.", price: 4325, order: 3)
 CategoryPost.delete_all
 CategoryPost.create(id: 1, category_id: 1, post_id: 1)
 CategoryPost.create(id: 2, category_id: 1, post_id: 2)
+CategoryPost.create(id: 3, category_id: 1, post_id: 3)
 #=end
-#=begin
+=begin
 Country.delete_all
 Country.create(:id => 1, :iso_code => "AD", :name => "Andorra")
 Country.create(:id => 2, :iso_code => "AE", :name => "United Arab Emirates")
@@ -280,8 +286,8 @@ Country.create(:id => 248, :iso_code => "ZM", :name => "Zambia")
 Country.create(:id => 249, :iso_code => "ZW", :name => "Zimbabwe")
 Country.create(:id => 250, :iso_code => "CS", :name => "Serbia and Montenegro")
 Country.create(:id => 251, :iso_code => "AN", :name => "Netherlands Antilles")
-#=end
-#=begin
+=end
+=begin
 City.delete_all
 City.create(:id=>1,:iso_code=>"06",:name=>"Parroquia de Sant Julia de Loria",:country_id=>1)
 City.create(:id=>2,:iso_code=>"05",:name=>"Parroquia d'Ordino",:country_id=>1)
@@ -4091,7 +4097,7 @@ City.create(:id=>3804,:iso_code=>"03",:name=>"Mashonaland Central",:country_id=>
 City.create(:id=>3805,:iso_code=>"01",:name=>"Manicaland",:country_id=>249)
 City.create(:id=>3806,:iso_code=>"09",:name=>"Bulawayo",:country_id=>249)
 City.create(:id=>3807,:iso_code=>"10",:name=>"Harare Province",:country_id=>249)
-#=end
+=end
 
 
 

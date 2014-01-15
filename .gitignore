@@ -18,5 +18,5 @@ database.yml
 .idea/OnlineShop.iml
 .idea/workspace.xml
 /public/*
-config/environments/development.rb
+/config/environments/development.rb
 

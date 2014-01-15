@@ -1,12 +1,25 @@
 /%p#notice= notice
-
 %dl.dl-horizontal
   %dt
     %strong Title :
   %dd= @category.title if @category.present?
   %dt Description :
   %dd= @category.description if @category.present?
-
+%table.table.table-striped
+  %tr
+    %th Images
+    %th Description
+    %th Price
+  - @category.posts.each do |post|
+    %tr
+      - post.images.each do |x|
+        %td= image_tag(x.photo.url)
+      %td
+        %p
+          %b= post.title
+        %p= post.description
+      %td= post.price.to_s+".00TK"
+%br
 
 = link_to 'Edit', edit_category_path(@category), class: "btn btn-primary"
 \|
