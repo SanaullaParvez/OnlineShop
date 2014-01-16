@@ -24,9 +24,10 @@
       %td= post.price
       %td
         %p= link_to 'Show', post, :class => "btn btn-info btn-xs"
-        - if can? :update, post
 
 
+        %p= link_to 'Add to Cart' , line_items_path(:post_id => post), :method => "POST"
+        - if cannot? :update, :post
           %p= link_to 'Edit', edit_post_path(post), :class => "btn btn-default btn-xs"
         %p= link_to 'Destroy', post, :method => :delete, :data => { :confirm => 'Are you sure?' }, :class => "btn btn-danger btn-xs"
 

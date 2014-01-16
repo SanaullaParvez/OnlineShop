@@ -1,0 +1,22 @@
+
+
+
+%table
+  %tr
+    %th Product
+    %th Qty
+    %th Unit Price
+    %th Full Price
+
+  - for cart in @cart.line_items
+    %tr
+      %td= cart.post.title
+      %td=  cart.quantity
+      %td=  number_to_currency cart.unit_price
+      %td=  number_to_currency cart.full_price
+%tr
+  = number_to_currency @cart.total_price
+
+= button_to "Checkout", @cart.paypal_url(posts_url,  payment_notifications_url)
+\|
+= link_to "Continue Shopping", posts_url

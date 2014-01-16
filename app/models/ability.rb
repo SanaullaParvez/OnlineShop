@@ -7,12 +7,12 @@ class Ability
 
     if user.has_role? :admin
       can :manage, :all
-    elsif user.has_role? :user
-      can :manage, :all
+    elsif user.has_role? "user"
+
 
 
       can :manage, Post, :user_id => user.id
-
+      can :read, :all
 
       can :read, User do |resource|
         resource == user
@@ -23,7 +23,7 @@ class Ability
       end
 
       # enables signup
-     # can :create, User
+      # can :create, User
     else
       can :read, Post
       #can :create, User
