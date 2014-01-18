@@ -1,6 +1,11 @@
 OnlineShop::Application.routes.draw do
 
+  resources :line_items
+  resources :carts
+  get 'current_cart' => 'cart#show', :id => 'current'
+
   resources :cities
+  resources :payment_notifications
 
 
   #get "homes/index"

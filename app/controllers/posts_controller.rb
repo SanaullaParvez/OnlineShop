@@ -37,7 +37,13 @@ class PostsController < ApplicationController
 
   # GET /posts/1/edit
   def edit
-    @post = Post.find(params[:id])
+    if cannot? :update, :post
+      @post = Post.find(params[:id])
+    else
+      redirect_to root_path
+
+
+    end
   end
 
   # POST /posts
