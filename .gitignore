@@ -15,8 +15,7 @@
 /tmp
 /config/database.yml
 database.yml
-.idea/OnlineShop.iml
-.idea/workspace.xml
+.idea/*
 /public/*
 /config/environments/development.rb
 
